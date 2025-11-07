@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+.virtualenvs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.mypy_cache/
+.tox/
+
+# Streamlit
+.streamlit/
+
+# Data files (опционально - можно закомментировать если нужны примеры данных)
+# data/raw/*.csv
+# data/cleaned/*.csv
+
+# Models (большие файлы моделей можно исключить)
+# models/*.pkl
+
+# Reports
+# reports/*.png
+# reports/*.txt
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
